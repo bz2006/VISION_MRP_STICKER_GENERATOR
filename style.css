@@ -1,0 +1,445 @@
+body {
+
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#mrp {
+  color: #000000;
+  margin-top: 0px;
+  margin-left: 0px;
+  height: 180px;
+  width: 377.95275591px;
+  font-family: 'Segoe UI';
+  font-weight: 900;
+  margin: none;
+  border: 1px solid black;
+
+}
+
+.lggr {
+  position: absolute;
+  width: 325px;
+  margin-left: 27px;
+  margin-top: 53px;
+}
+
+.mrpelem {
+  font-size: 13px;
+  margin-left: 5.5px;
+
+}
+
+
+.inc {
+  margin-top: 0px;
+  font-size: 7px;
+}
+
+
+/* Style the individual grid items */
+
+.a4 {
+  margin-top: 10px;
+  height: fit-content;
+  width: fit-content;
+  background-color: white;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 30px;
+
+}
+
+.head {
+  width: 100%;
+  height: 100px;
+  background-color: #181818;
+}
+
+.logo {
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 15%;
+}
+
+.regselect {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 694px;
+  height: 100px;
+  background-color: #4e4e4e;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.drop {
+  margin-left: 40px;
+  height: 40px;
+  width: 200px;
+  position: relative;
+  display: inline-block;
+  color: white;
+  background-color: #282828;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+
+}
+
+#Date {
+  color: white;
+  background-color: #282828;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 200px;
+}
+
+.reg_btn {
+  height: 40px;
+  width: 200px;
+  background-color: #282828;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.reg_btn:hover {
+  background-color: #000000;
+}
+
+#Date:hover {
+  background-color: #000000;
+}
+
+.drop:hover {
+  background-color: #000000;
+}
+
+.modsel {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 694px;
+  display: inline-block;
+  height: fit-content;
+  background-color: #4e4e4e;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.conf_btn {
+  height: 40px;
+  width: 200px;
+  background-color: #282828;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+.conf_btn:hover {
+  background-color: #000000;
+}
+
+.adrem {
+  margin-top: 30px;
+  margin-bottom: 23px;
+  margin-left: 40px;
+  height: 40px;
+  width: 200px;
+  background-color: #282828;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+.gen_btn {
+  height: 40px;
+  width: 200px;
+  margin-top: 30px;
+  background-color: #005a17;
+  color: white;
+  border: 1px solid #014211;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 480px;
+  margin-bottom: 30px;
+
+}
+
+.gen_btn:hover {
+  background-color: #014512;
+}
+
+#modelselector {
+  display: none;
+
+}
+
+.mrpcount {
+  margin-top: 20px;
+  margin-right: 170px;
+  width: 250px;
+  float: right;
+  height: 150px;
+  background-color: #4e4e4e;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.tc {
+  color: white;
+  margin-top: 43px;
+  margin-left: 40px;
+  display: inline-block;
+  font-size: large;
+}
+
+.cnt {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: large;
+  color: white;
+}
+
+.rc {
+  color: white;
+  margin-top: 10px;
+  margin-left: 40px;
+  display: inline-block;
+  font-size: large;
+}
+
+.rcnt {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: large;
+  color: white;
+}
+
+.mrc {
+  margin-left: 179px;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 17px;
+  position: absolute;
+
+}
+
+.modno {
+  font-size: 15px;
+  margin-left: 7px;
+  font-weight: 700;
+  margin-top: 2px;
+  position: absolute;
+}
+
+.mrpp {
+  margin-left: 7px;
+  margin-top: 22px;
+  font-weight: 700;
+  font-size: 15px;
+  position: absolute;
+}
+
+.modl {
+  margin-left: 179px;
+  margin-top: 1px;
+  font-weight: 700;
+  font-size: 17px;
+  position: absolute;
+}
+
+.col {
+  margin-left: 167px;
+  margin-top: 2px;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+}
+
+.col2 {
+  margin-left: 167px;
+  margin-top: 22px;
+  font-weight: 700;
+  font-size: 15px;
+  position: absolute;
+}
+
+.mr {
+  margin-left: 179px;
+  margin-top: -27px;
+  font-weight: 700;
+  font-size: 15px;
+  position: absolute;
+
+}
+
+.incl {
+  font-size: 8px;
+  margin-left: 179px;
+  margin-top: 38.5px;
+  position: absolute;
+  font-weight: 700;
+}
+
+.manmy {
+  margin-left: 7px;
+  font-weight: 700;
+  margin-top: 48px;
+  font-size: 15px;
+  position: absolute;
+}
+
+.col3 {
+  margin-left: 167px;
+  margin-top: 48px;
+  font-weight: 700;
+  font-size: 15px;
+  position: absolute;
+}
+
+.date {
+  margin-left: 179px;
+  margin-top: 48px;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+}
+
+.qty {
+  margin-top: 67px;
+  margin-left: 7px;
+  position: absolute;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.col4 {
+  margin-left: 167px;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 67px;
+  position: absolute;
+}
+
+.qtycon {
+  margin-left: 179px;
+  margin-top: 67px;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+}
+
+.qtycon2 {
+  margin-left: 179px;
+  margin-top: 81px;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+}
+
+.col5 {
+  margin-left: 167px;
+  margin-top: 98px;
+  font-weight: 700;
+  font-size: 15px;
+  position: absolute;
+}
+
+.manfby {
+  margin-top: 98px;
+  font-weight: 700;
+  margin-left: 7px;
+  font-size: 15px;
+  position: absolute;
+}
+
+.manfby1 {
+  margin-left: 179px;
+  margin-top: 98px;
+  font-weight: 700;
+  font-size: 15px;
+  position: absolute;
+}
+
+.manfby2 {
+  margin-left: 179px;
+  margin-top: 112px;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+}
+
+.manfby3 {
+  margin-left: 179px;
+  margin-top: 127px;
+  font-weight: 700;
+  font-size: 15px;
+  position: absolute;
+}
+
+.custno {
+  margin-top: 145px;
+  margin-left: 7px;
+  font-weight: 700;
+  font-size: 15px;
+  position: absolute;
+}
+
+.col6 {
+  margin-left: 167px;
+  margin-top: 145px;
+  font-weight: 700;
+  font-size: 14.5px;
+  position: absolute;
+}
+
+.custnum {
+  margin-left: 179px;
+  margin-top: 145px;
+  position: absolute;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.vuo {
+  margin-top: 160px;
+  margin-left: 7px;
+  font-weight: 700;
+  font-size: 15px;
+  position: absolute;
+}
+
+.col7 {
+  margin-left: 167px;
+  margin-top: 160px;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+}
+
+.vuocont {
+  margin-left: 179px;
+  margin-top: 160px;
+  font-weight: 700;
+  font-size: 13.7px;
+  position: absolute;
+}
+.print-btn{
+  position: absolute;
+}
+
+/* Display only the contentToPrint div when printing */
+@media print {
+
+  .print-btn{
+    display: none;
+  }
+}
